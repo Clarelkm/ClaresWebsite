@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  #container {
+    width: max-width;
+    margin: auto;
+  }
+  
+  h1{
+    margin: 0;
+    font-size: 5vw;
+  } 
+  
+  h2{
+    margin: 0;
+    font-size: 30px;
+    color: #811331 ;
+  }
+  
+  h3{
+    margin: 0;
+    font-size: 30px;
+    color: #22a6b3;
+  } 
+  
+  #header {
+    background-color:#FCF4A3;
+    font-family: "STCaiyun";
+    font-size: 36px;
+    color: 	#673147;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+  } 
+  
+  #content {
+    padding: 0px;
+  }
+  
+  #main {
+    font-family: "Cascadia Mono SemiBold";
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: 1050px;
+    padding: 30px;
+  }
+  
+  #profloc {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+  }
+  
+  #Fushion360{
+    margin: auto;
+    text-align: center;
+  }
+  
+  #Gimpimages{
+    padding: 130px;
+  }
+
+  #footer {
+    clear: both;
+    padding: 8px;
+    margin: auto;
+    background-color: #673147;
+    color: white;
+    text-align: right;  
+  }
