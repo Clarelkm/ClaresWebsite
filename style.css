@@ -1,73 +1,128 @@
 body {
-    background-color: rgb(255, 255, 255);
-    
-  }
-  
-  #container {
-    width: max-width;
-    margin: auto;
-  }
-  
-  h1{
-    margin: 0;
-    font-size: 5vw;
-  } 
-  
-  h2{
-    margin: 0;
-    font-size: 30px;
-    color: #811331 ;
-  }
-  
-  h3{
-    margin: 0;
-    font-size: 30px;
-    color: #22a6b3;
-  } 
-  
-  #header {
-    background-color:#FCF4A3;
-    font-family: "STCaiyun";
-    font-size: 36px;
-    color: 	#673147;
-    text-align: center;
-    padding: 0px;
-    margin: auto;
-  } 
-  
-  #content {
-    padding: 0px;
-  }
-  
-  #main {
-    font-family: "Cascadia Mono SemiBold";
-    font-size: 25px;
-    text-align: center;
-    margin: auto;
-    width: 1050px;
-    padding: 30px;
-  }
-  
-  #profloc {
-    text-align: center;
-    padding: 0;
-    margin: auto;
-  }
-  
-  #Fushion360{
-    margin: auto;
-    text-align: center;
-  }
-  
-  #Gimpimages{
-    padding: 130px;
-  }
+  background-color: rgb(255, 255, 255);
+}
 
-  #footer {
-    clear: both;
-    padding: 8px;
-    margin: auto;
-    background-color: #673147;
-    color: white;
-    text-align: right;  
-  }
+#container {
+  width: max-width;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5vw;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #811331;
+}
+
+h3 {
+  margin: 0;
+  font-size: 30px;
+  color: #811331;
+}
+
+#header {
+  background-color: #FCF4A3;
+  font-family: "STCaiyun";
+  font-size: 36px;
+  color: #673147;
+  text-align: center;
+  padding: 0px;
+  margin: auto;
+}
+
+#content {
+  padding: 0px;
+}
+
+#main {
+  font-family: "Cascadia Mono SemiBold";
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  width: 1050px;
+  padding: 30px;
+}
+
+#fusionprints {
+  font-family: "Cascadia Mono SemiBold";
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #811331;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: auto;
+}
+
+.button:hover {
+  background-color: #8C4C56
+}
+
+.button:active {
+  background-color: #811331;
+  text-align: center;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#text {
+  font-family: "Cascadia Mono SemiBold";
+  font-size: 22px;
+  text-align: center;
+  margin: auto;
+  width: 1050px;
+}
+
+#description {
+  font-family: "Cascadia Mono SemiBold";
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  width: 1050px;
+}
+
+#modelelements {
+  text-align: center;
+  margin: auto;
+}
+
+#profloc {
+  text-align: center;
+  padding: 0;
+  margin: auto;
+}
+
+#Fushion360 {
+  margin: auto;
+  text-align: center;
+}
+
+#Gimpimages {
+  padding: 130px;
+}
+
+#footer {
+  font-family: "Comic Sans MS";
+  clear: both;
+  padding: 8px;
+  margin: auto;
+  background-color: #673147;
+  color: white;
+  text-align: right;
+}
